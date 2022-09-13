@@ -1,11 +1,10 @@
 const btn = document.getElementById("btn");
 const Minus = document.getElementById("minus");
 
-let cishu = window.localStorage.getItem("shi") || null;
+let cishu = window.localStorage.getItem("shi") || 0;
 console.log(cishu);
-if (cishu) {
-  btn.innerText = cishu;
-}
+btn.innerText = cishu;
+
 function add() {
   if (btn.innerText < 15) {
     btn.innerText++;
