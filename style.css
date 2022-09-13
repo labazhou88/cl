@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(135deg, #4bc0c8, #c779d0, #feac5e); */
+  background: url(./bg.jpg);
+  background-size: contain;
+}
+h1 {
+  animation: float-juice 7s ease-in-out infinite;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+@keyframes float-juice {
+  0% {
+    color: red;
+  }
+  7% {
+    color: orange;
+  }
+
+  14% {
+    color: yellow;
+  }
+  21% {
+    color: green;
+  }
+  28% {
+    color: blue;
+  }
+  35% {
+    color: indigo;
+  }
+  42% {
+    color: violet;
+  }
+  53% {
+    color: indigo;
+  }
+  57% {
+    color: blue;
+  }
+  65% {
+    color: green;
+  }
+  72% {
+    color: yellow;
+  }
+  79% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.box {
+  width: 600px;
+  margin: 0 auto 0 auto;
+  background: white;
+  opacity: 0.5;
+  border-radius: 20px;
+  padding-right: 8px;
+}
+.footer {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
