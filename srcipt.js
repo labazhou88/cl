@@ -6,7 +6,7 @@ console.log(cishu);
 btn.innerText = cishu;
 
 function add() {
-  if (btn.innerText < 15) {
+  if (btn.innerText < 35) {
     btn.innerText++;
     window.localStorage.setItem("shi", btn.innerText);
     //window.alert("欢迎氯哥！氯哥辛苦");
